@@ -1,0 +1,43 @@
+-What is a Virtual Machine?
+
+ A virtual machine allows multiple isolated operating environments to run on the same physical hardware. This provides a convenient and
+ cost-effective way to run multiple operating systems and applications on a single physical computer.
+ Host Operating System: The host operating system is the physical operating system installed on the physical computer or server.
+ Virtualization Software: Virtualization software, such as VirtualBox is installed on the host operating system. This software creates 
+ and manages the virtual machines and provides the necessary resources such as virtual storage, virtual networking, and virtual
+ hardware devices to the virtual machines.
+ Virtual Machine: A virtual machine is created by the virtualization software. The virtual machine is an isolated environment that
+ has its own operating system, applications, and data.
+ Virtual Hardware: The virtual hardware provides the virtual machine with the necessary hardware resources such as virtual CPU, virtual
+ memory, virtual hard disk, virtual network interface, and virtual input/output devices.
+ Guest Operating System: The guest operating system is installed on the virtual machine. This operating system acts as the primary
+ operating system for the virtual machine and provides the necessary environment for running applications.
+
+-The basic differences between CentOS and Debian.
+
+ CentOS and Debian are two popular open-source operating systems used for various purposes, including server and desktop applications.
+ Both are powerful and efficient, but the methods for installing, updating, and managing software packages are different.
+ Debian has a slower release cycle, with a new stable version released every two years. CentOS follows a more predictable release
+ cycle, with new versions released every few years.
+ Debian provides a high degree of customization, with many options for customizing the operating system and its components.
+ CentOS is more streamlined, with fewer options for customization, but it is more focused on stability and reliability.
+ Both Debian and CentOS have large and active communities, but Debian has a larger and more diverse community, with many developers contributing
+ to the project.
+ In conclusion, Debian is a good choice for projects that require stability and customization, while CentOS is ideal for projects that require
+ stability, reliability, and longer support cycles.
+
+-The purpose of virtual machines.
+ 
+ Virtual machines provide a flexible and efficient solution for many IT needs, including resource isolation, application testing,
+ improved security, disaster recovery, compatibility testing, and cloud computing.
+
+-The difference between aptitude and apt, and what APPArmor is.
+
+ Aptitude and apt are both package management tools used in Debian-based Linux distributions, such as Ubuntu. Apt is a
+ simpler and faster tool for managing packages, while aptitude is a more feature-rich tool that provides a terminal-based user interface
+ for managing packages. Aptitude also includes more advanced features, such as automatic dependency resolution and the ability to track
+ package changes over time.
+ AppArmor: AppArmor is a Linux security module that allows the administrator to define security policies for applications, which are
+ enforced by the kernel at runtime. It provides a flexible and easy-to-use mechanism for controlling access to files, network resources,
+ and other system components. AppArmor helps prevent unauthorized access to resources and reduces the risk of security breaches by
+ controlling the behavior of applications running on the system.
