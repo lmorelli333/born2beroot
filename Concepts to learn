@@ -41,3 +41,12 @@
  enforced by the kernel at runtime. It provides a flexible and easy-to-use mechanism for controlling access to files, network resources,
  and other system components. AppArmor helps prevent unauthorized access to resources and reduces the risk of security breaches by
  controlling the behavior of applications running on the system.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+-What's a .vdi file?
+
+ A .vdi file is a virtual disk image file format that is used by VirtualBox, an open-source virtualization software. A virtual disk image
+ contains the contents of a virtual machine's hard disk, including the operating system, applications, data, and configuration files.
+ The .vdi file can be used to store virtual machines on a host computer and can be easily transported to another computer running VirtualBox.
+ When loaded into VirtualBox, the .vdi file is treated as a physical disk and the virtual machine running on the host computer can access its
+ contents just like it would access a physical hard disk.
