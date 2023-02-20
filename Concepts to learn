@@ -73,3 +73,28 @@ solo agli utenti che ne hanno effettivamente bisogno, invece di concedere l'acce
 Per utilizzare il gruppo "sudo", gli utenti devono eseguire il comando "sudo" seguito dal comando che desiderano eseguire.
 Quando un utente che appartiene al gruppo "sudo" esegue un comando con "sudo", il sistema richiederà la password dell'utente per
 verificare la loro identità e autorizzare l'esecuzione del comando con privilegi elevati.
+
+-Firewall.
+
+Un firewall è un software o un hardware che controlla il traffico di rete tra due o più reti, in modo da proteggere una rete da accessi
+non autorizzati provenienti da reti esterne (come Internet) o interni (come una rete Wi-Fi pubblica).
+In pratica, il firewall funziona come una barriera tra la tua rete e il resto del mondo. Esso può essere configurato per bloccare il
+traffico di rete in base a regole specifiche, come il tipo di protocollo utilizzato, il tipo di traffico (come e-mail o navigazione web),
+l'indirizzo IP di origine o di destinazione, e così via.
+
+-UFW.
+
+UFW sta per "Uncomplicated Firewall", ovvero un firewall per Linux che mira a semplificare la configurazione del firewall attraverso un'interfaccia 
+utente intuitiva. In pratica, UFW è un servizio che consente di gestire e controllare l'accesso ai servizi di rete sulla tua macchina Linux, 
+consentendo o bloccando il traffico in ingresso e in uscita. È un servizio utile per migliorare la sicurezza
+della tua macchina e proteggerla dagli attacchi esterni.
+
+-SSH.
+
+SSH sta per "Secure Shell" ed è un protocollo di rete che consente di accedere a un server in modo sicuro e remoto, tramite una connessione
+crittografata. In pratica, SSH è un servizio che permette di stabilire una connessione sicura e cifrata tra due host (client e server) attraverso
+la quale è possibile eseguire comandi, trasferire file e gestire la configurazione di un server. SSH è molto popolare tra gli amministratori di
+sistema e gli utenti di Linux e Unix, poiché consente di gestire i server in modo sicuro da remoto, senza dover accedere fisicamente alla macchina.
+Inoltre, la connessione SSH è crittografata, il che significa che i dati trasmessi attraverso la connessione sono al sicuro dagli occhi indiscreti.
+Per utilizzare il servizio SSH, è necessario avere un client SSH sul proprio computer e un server SSH sul computer remoto.
+Il client si connette al server e stabilisce una sessione crittografata attraverso la quale l'utente può interagire con il server in modo sicuro.
