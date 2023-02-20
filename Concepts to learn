@@ -50,3 +50,13 @@
  The .vdi file can be used to store virtual machines on a host computer and can be easily transported to another computer running VirtualBox.
  When loaded into VirtualBox, the .vdi file is treated as a physical disk and the virtual machine running on the host computer can access its
  contents just like it would access a physical hard disk.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+La ripartizione logica di una virtual machine consiste nel suddividere la capacità di archiviazione di una macchina virtuale in diverse
+partizioni o volumi logici, al fine di organizzare e gestire i dati in modo più efficiente.
+La suddivisione in partizioni logiche può essere utile per diversi scopi, ad esempio:
+> Separare i dati del sistema operativo e delle applicazioni da quelli degli utenti, per garantire maggiore sicurezza e facilitare il backup
+  e il ripristino in caso di problemi;
+> Allocare spazio dedicato a specifiche attività o applicazioni che richiedono maggiore capacità di archiviazione;
+> Gestire in modo più efficiente lo spazio disponibile, ad esempio evitando di riempire completamente un unico volume
+  e rendendo più facile l'espansione in futuro.
+La ripartizione logica viene solitamente effettuata al momento della creazione della macchina virtuale, e può essere modificata in seguito se necessario. La gestione delle partizioni logiche è generalmente effettuata tramite strumenti specifici forniti dal sistema operativo ospite della macchina virtuale.
