@@ -59,4 +59,17 @@ La suddivisione in partizioni logiche può essere utile per diversi scopi, ad es
 > Allocare spazio dedicato a specifiche attività o applicazioni che richiedono maggiore capacità di archiviazione;
 > Gestire in modo più efficiente lo spazio disponibile, ad esempio evitando di riempire completamente un unico volume
   e rendendo più facile l'espansione in futuro.
-La ripartizione logica viene solitamente effettuata al momento della creazione della macchina virtuale, e può essere modificata in seguito se necessario. La gestione delle partizioni logiche è generalmente effettuata tramite strumenti specifici forniti dal sistema operativo ospite della macchina virtuale.
+La ripartizione logica viene solitamente effettuata al momento della creazione della macchina virtuale, e può essere modificata in seguito se necessario.
+La gestione delle partizioni logiche è generalmente effettuata tramite strumenti specifici forniti dal sistema operativo ospite della macchina virtuale.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+-Sudo group.
+
+Il gruppo "sudo" è un gruppo di utenti che hanno il permesso di eseguire comandi con privilegi elevati su un sistema Linux o Unix.
+Il nome "sudo" deriva dall'abbreviazione di "superuser do", ovvero l'abilità di eseguire comandi come superutente.
+In altre parole, gli utenti che appartengono al gruppo "sudo" hanno la capacità di eseguire comandi con permessi di amministratore,
+consentendo loro di accedere e modificare file di sistema, installare o rimuovere pacchetti software, avviare o arrestare servizi di sistema e così via.
+L'utilizzo del gruppo "sudo" è considerato una buona pratica di sicurezza, poiché consente di limitare l'accesso ai comandi con privilegi elevati
+solo agli utenti che ne hanno effettivamente bisogno, invece di concedere l'accesso completo al sistema come superutente.
+Per utilizzare il gruppo "sudo", gli utenti devono eseguire il comando "sudo" seguito dal comando che desiderano eseguire.
+Quando un utente che appartiene al gruppo "sudo" esegue un comando con "sudo", il sistema richiederà la password dell'utente per
+verificare la loro identità e autorizzare l'esecuzione del comando con privilegi elevati.
