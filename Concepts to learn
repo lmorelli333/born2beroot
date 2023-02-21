@@ -51,16 +51,18 @@
  When loaded into VirtualBox, the .vdi file is treated as a physical disk and the virtual machine running on the host computer can access its
  contents just like it would access a physical hard disk.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-La ripartizione logica di una virtual machine consiste nel suddividere la capacità di archiviazione di una macchina virtuale in diverse
-partizioni o volumi logici, al fine di organizzare e gestire i dati in modo più efficiente.
-La suddivisione in partizioni logiche può essere utile per diversi scopi, ad esempio:
-> Separare i dati del sistema operativo e delle applicazioni da quelli degli utenti, per garantire maggiore sicurezza e facilitare il backup
-  e il ripristino in caso di problemi;
-> Allocare spazio dedicato a specifiche attività o applicazioni che richiedono maggiore capacità di archiviazione;
-> Gestire in modo più efficiente lo spazio disponibile, ad esempio evitando di riempire completamente un unico volume
-  e rendendo più facile l'espansione in futuro.
-La ripartizione logica viene solitamente effettuata al momento della creazione della macchina virtuale, e può essere modificata in seguito se necessario.
-La gestione delle partizioni logiche è generalmente effettuata tramite strumenti specifici forniti dal sistema operativo ospite della macchina virtuale.
+-Ripartizione.
+
+ La ripartizione logica di una virtual machine consiste nel suddividere la capacità di archiviazione di una macchina virtuale in diverse
+ partizioni o volumi logici, al fine di organizzare e gestire i dati in modo più efficiente.
+ La suddivisione in partizioni logiche può essere utile per diversi scopi, ad esempio:
+>Separare i dati del sistema operativo e delle applicazioni da quelli degli utenti, per garantire maggiore sicurezza e facilitare il backup
+ e il ripristino in caso di problemi;
+>Allocare spazio dedicato a specifiche attività o applicazioni che richiedono maggiore capacità di archiviazione;
+>Gestire in modo più efficiente lo spazio disponibile, ad esempio evitando di riempire completamente un unico volume
+ e rendendo più facile l'espansione in futuro.
+ La ripartizione logica viene solitamente effettuata al momento della creazione della macchina virtuale, e può essere modificata in seguito se necessario.
+ La gestione delle partizioni logiche è generalmente effettuata tramite strumenti specifici forniti dal sistema operativo ospite della macchina virtuale.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 -Sudo group.
 
@@ -98,3 +100,11 @@ sistema e gli utenti di Linux e Unix, poiché consente di gestire i server in mo
 Inoltre, la connessione SSH è crittografata, il che significa che i dati trasmessi attraverso la connessione sono al sicuro dagli occhi indiscreti.
 Per utilizzare il servizio SSH, è necessario avere un client SSH sul proprio computer e un server SSH sul computer remoto.
 Il client si connette al server e stabilisce una sessione crittografata attraverso la quale l'utente può interagire con il server in modo sicuro.
+
+-LVM.
+
+LVM sta per Logical Volume Manager ed è un sistema utilizzato su sistemi Linux per gestire lo spazio di archiviazione dei dischi rigidi o delle
+partizioni di storage. Con LVM, è possibile creare un gruppo di volumi logici (VG) costituito da uno o più dischi fisici. All'interno del VG,
+è possibile creare volumi logici (LV) che possono essere ridimensionati e spostati senza dover riformattare il file system. In altre parole,
+LVM consente di creare una sorta di "partizione virtuale" che può essere facilmente modificata.
+
