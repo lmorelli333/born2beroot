@@ -51,9 +51,9 @@
  When loaded into VirtualBox, the .vdi file is treated as a physical disk and the virtual machine running on the host computer can access its
  contents just like it would access a physical hard disk.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
--Ripartizione.
+-Partizione.
 
- La ripartizione logica di una virtual machine consiste nel suddividere la capacità di archiviazione di una macchina virtuale in diverse
+ La partizione logica di una virtual machine consiste nel suddividere la capacità di archiviazione di una macchina virtuale in diverse
  partizioni o volumi logici, al fine di organizzare e gestire i dati in modo più efficiente.
  La suddivisione in partizioni logiche può essere utile per diversi scopi, ad esempio:
 >Separare i dati del sistema operativo e delle applicazioni da quelli degli utenti, per garantire maggiore sicurezza e facilitare il backup
@@ -108,3 +108,12 @@ partizioni di storage. Con LVM, è possibile creare un gruppo di volumi logici (
 è possibile creare volumi logici (LV) che possono essere ridimensionati e spostati senza dover riformattare il file system. In altre parole,
 LVM consente di creare una sorta di "partizione virtuale" che può essere facilmente modificata.
 
+-Cron.
+
+Cron consente di programmare l'esecuzione di comandi o script in un momento specifico o in momenti specifici a intervalli regolari. Il formato
+del file crontab è composto da sei campi, che indicano rispettivamente il minuto, l'ora, il giorno del mese, il mese, il giorno della settimana
+e il comando da eseguire. Ogni campo può contenere un valore numerico o una lista di valori separati da virgole. È possibile anche utilizzare
+caratteri speciali come asterischi (*) o barre (/) per rappresentare intervalli o ripetizioni.
+Ad esempio, il seguente comando crontab eseguirà lo script "/home/user/backup.sh" ogni giorno alle 3 del mattino: 0 3 * * * /home/user/backup.sh
+Cron è un utile strumento per automatizzare le attività di routine come il backup dei dati, l'aggiornamento dei pacchetti di sistema,
+l'eliminazione dei file temporanei e molto altro ancora. 
