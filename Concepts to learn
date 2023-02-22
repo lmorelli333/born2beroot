@@ -116,4 +116,13 @@ e il comando da eseguire. Ogni campo può contenere un valore numerico o una lis
 caratteri speciali come asterischi (*) o barre (/) per rappresentare intervalli o ripetizioni.
 Ad esempio, il seguente comando crontab eseguirà lo script "/home/user/backup.sh" ogni giorno alle 3 del mattino: 0 3 * * * /home/user/backup.sh
 Cron è un utile strumento per automatizzare le attività di routine come il backup dei dati, l'aggiornamento dei pacchetti di sistema,
-l'eliminazione dei file temporanei e molto altro ancora. 
+l'eliminazione dei file temporanei e molto altro ancora.
+
+-Lighttpd.
+
+Lighttpd is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a
+top priority because it consumes less CPU and RAM than other servers.
+
+-MariaDB
+
+It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
