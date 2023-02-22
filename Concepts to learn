@@ -123,6 +123,10 @@ l'eliminazione dei file temporanei e molto altro ancora.
 Lighttpd is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a
 top priority because it consumes less CPU and RAM than other servers.
 
--MariaDB
+-MariaDB.
 
 It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
+
+-Phpmyadmin.
+
+It is a web application used to manage databases in a simple and friendly interface.
